@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C23D8A4617D21A89005D89AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23D8A4517D21A89005D89AC /* UIKit.framework */; };
+		C23D8A4817D21A89005D89AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23D8A4717D21A89005D89AC /* Foundation.framework */; };
+		C23D8A4A17D21A89005D89AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23D8A4917D21A89005D89AC /* CoreGraphics.framework */; };
+		C23D8A5017D21A89005D89AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C23D8A4E17D21A89005D89AC /* InfoPlist.strings */; };
+		C23D8A5217D21A89005D89AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D8A5117D21A89005D89AC /* main.m */; };
+		C23D8A5617D21A89005D89AC /* GTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D8A5517D21A89005D89AC /* GTAppDelegate.m */; };
+		C23D8A5817D21A89005D89AC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C23D8A5717D21A89005D89AC /* Default.png */; };
+		C23D8A5A17D21A89005D89AC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C23D8A5917D21A89005D89AC /* Default@2x.png */; };
+		C23D8A5C17D21A89005D89AC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C23D8A5B17D21A89005D89AC /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C23D8A4217D21A89005D89AC /* Game Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23D8A4517D21A89005D89AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C23D8A4717D21A89005D89AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C23D8A4917D21A89005D89AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C23D8A4D17D21A89005D89AC /* Game Timer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Game Timer-Info.plist"; sourceTree = "<group>"; };
+		C23D8A4F17D21A89005D89AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C23D8A5117D21A89005D89AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C23D8A5317D21A89005D89AC /* Game Timer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Game Timer-Prefix.pch"; sourceTree = "<group>"; };
+		C23D8A5417D21A89005D89AC /* GTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTAppDelegate.h; sourceTree = "<group>"; };
+		C23D8A5517D21A89005D89AC /* GTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTAppDelegate.m; sourceTree = "<group>"; };
+		C23D8A5717D21A89005D89AC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C23D8A5917D21A89005D89AC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C23D8A5B17D21A89005D89AC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C23D8A3F17D21A89005D89AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23D8A4617D21A89005D89AC /* UIKit.framework in Frameworks */,
+				C23D8A4817D21A89005D89AC /* Foundation.framework in Frameworks */,
+				C23D8A4A17D21A89005D89AC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C23D8A3917D21A89005D89AC = {
+			isa = PBXGroup;
+			children = (
+				C23D8A4B17D21A89005D89AC /* Game Timer */,
+				C23D8A4417D21A89005D89AC /* Frameworks */,
+				C23D8A4317D21A89005D89AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C23D8A4317D21A89005D89AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C23D8A4217D21A89005D89AC /* Game Timer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C23D8A4417D21A89005D89AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C23D8A4517D21A89005D89AC /* UIKit.framework */,
+				C23D8A4717D21A89005D89AC /* Foundation.framework */,
+				C23D8A4917D21A89005D89AC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C23D8A4B17D21A89005D89AC /* Game Timer */ = {
+			isa = PBXGroup;
+			children = (
+				C23D8A5417D21A89005D89AC /* GTAppDelegate.h */,
+				C23D8A5517D21A89005D89AC /* GTAppDelegate.m */,
+				C23D8A4C17D21A89005D89AC /* Supporting Files */,
+			);
+			path = "Game Timer";
+			sourceTree = "<group>";
+		};
+		C23D8A4C17D21A89005D89AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C23D8A4D17D21A89005D89AC /* Game Timer-Info.plist */,
+				C23D8A4E17D21A89005D89AC /* InfoPlist.strings */,
+				C23D8A5117D21A89005D89AC /* main.m */,
+				C23D8A5317D21A89005D89AC /* Game Timer-Prefix.pch */,
+				C23D8A5717D21A89005D89AC /* Default.png */,
+				C23D8A5917D21A89005D89AC /* Default@2x.png */,
+				C23D8A5B17D21A89005D89AC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C23D8A4117D21A89005D89AC /* Game Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C23D8A5F17D21A89005D89AC /* Build configuration list for PBXNativeTarget "Game Timer" */;
+			buildPhases = (
+				C23D8A3E17D21A89005D89AC /* Sources */,
+				C23D8A3F17D21A89005D89AC /* Frameworks */,
+				C23D8A4017D21A89005D89AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Game Timer";
+			productName = "Game Timer";
+			productReference = C23D8A4217D21A89005D89AC /* Game Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C23D8A3A17D21A89005D89AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Yasser Al-Khder";
+			};
+			buildConfigurationList = C23D8A3D17D21A89005D89AC /* Build configuration list for PBXProject "Game Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C23D8A3917D21A89005D89AC;
+			productRefGroup = C23D8A4317D21A89005D89AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C23D8A4117D21A89005D89AC /* Game Timer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C23D8A4017D21A89005D89AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23D8A5017D21A89005D89AC /* InfoPlist.strings in Resources */,
+				C23D8A5817D21A89005D89AC /* Default.png in Resources */,
+				C23D8A5A17D21A89005D89AC /* Default@2x.png in Resources */,
+				C23D8A5C17D21A89005D89AC /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C23D8A3E17D21A89005D89AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23D8A5217D21A89005D89AC /* main.m in Sources */,
+				C23D8A5617D21A89005D89AC /* GTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C23D8A4E17D21A89005D89AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C23D8A4F17D21A89005D89AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C23D8A5D17D21A89005D89AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C23D8A5E17D21A89005D89AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C23D8A6017D21A89005D89AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Game Timer/Game Timer-Prefix.pch";
+				INFOPLIST_FILE = "Game Timer/Game Timer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C23D8A6117D21A89005D89AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Game Timer/Game Timer-Prefix.pch";
+				INFOPLIST_FILE = "Game Timer/Game Timer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C23D8A3D17D21A89005D89AC /* Build configuration list for PBXProject "Game Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23D8A5D17D21A89005D89AC /* Debug */,
+				C23D8A5E17D21A89005D89AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C23D8A5F17D21A89005D89AC /* Build configuration list for PBXNativeTarget "Game Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23D8A6017D21A89005D89AC /* Debug */,
+				C23D8A6117D21A89005D89AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C23D8A3A17D21A89005D89AC /* Project object */;
+}
