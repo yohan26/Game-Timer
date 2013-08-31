@@ -7,6 +7,7 @@
 //
 
 #import "GTAppDelegate.h"
+#import "GTMainViewController.h"
 
 @implementation GTAppDelegate
 
@@ -15,6 +16,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[GTMainViewController alloc] init];
     [self.window makeKeyAndVisible];
     return YES;
 }
