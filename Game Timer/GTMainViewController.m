@@ -32,7 +32,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    self.middleButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    self.middleButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     self.middleButton.frame = CGRectMake(0, 0, self.view.bounds.size.width, 200);
     self.middleButton.center = self.view.center;
     self.middleButton.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleBottomMargin|UIViewAutoresizingFlexibleTopMargin;
