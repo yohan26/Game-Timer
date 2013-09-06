@@ -17,6 +17,7 @@
 		C23D8A5A17D21A89005D89AC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C23D8A5917D21A89005D89AC /* Default@2x.png */; };
 		C23D8A5C17D21A89005D89AC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C23D8A5B17D21A89005D89AC /* Default-568h@2x.png */; };
 		C23D8A6917D21B41005D89AC /* GTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D8A6817D21B41005D89AC /* GTMainViewController.m */; };
+		C2DC716B17D80BA5001523CC /* Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DC716A17D80BA5001523CC /* Timer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		C23D8A5B17D21A89005D89AC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C23D8A6717D21B41005D89AC /* GTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMainViewController.h; sourceTree = "<group>"; };
 		C23D8A6817D21B41005D89AC /* GTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMainViewController.m; sourceTree = "<group>"; };
+		C2DC716917D80BA5001523CC /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		C2DC716A17D80BA5001523CC /* Timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				C23D8A4C17D21A89005D89AC /* Supporting Files */,
 				C23D8A6717D21B41005D89AC /* GTMainViewController.h */,
 				C23D8A6817D21B41005D89AC /* GTMainViewController.m */,
+				C2DC716917D80BA5001523CC /* Timer.h */,
+				C2DC716A17D80BA5001523CC /* Timer.m */,
 			);
 			path = "Game Timer";
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 				C23D8A5217D21A89005D89AC /* main.m in Sources */,
 				C23D8A5617D21A89005D89AC /* GTAppDelegate.m in Sources */,
 				C23D8A6917D21B41005D89AC /* GTMainViewController.m in Sources */,
+				C2DC716B17D80BA5001523CC /* Timer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +295,7 @@
 				C23D8A6117D21A89005D89AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
