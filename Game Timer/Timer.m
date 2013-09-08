@@ -11,8 +11,7 @@
 @interface Timer ()
 
 @property (nonatomic) float startTime;
-@property (nonatomic) float player1Time;
-@property (nonatomic) float player2Time;
+@property (strong, nonatomic) NSTimer *countdownTimer;
 
 @end
 
@@ -24,12 +23,42 @@
         self.startTime = time;
         self.player1Time = time;
         self.player2Time = time;
+        self.status = noPlayerRunning;
     }
     else {
         NSLog(@"did not init properly");
     }
     
     return self;
+}
+
+- (void)timerFired {
+    //TODO: Make it pass by reference
+    switch (self.status) {
+        case player1Running:
+            self.player1Time = [self decrementTime:(self.player1Time)];
+            break;
+        case player2Running:
+            self.player2Time = [self decrementTime:self.player2Time];
+            break;
+        default:
+            NSLog(@"%u", self.status);
+            break;
+    }
+}
+
+- (float)decrementTime:(float)time {
+    if (time <= 0.0f) {
+        [self.countdownTimer invalidate];
+        self.status = noPlayerRunning;
+    }
+    time = MAX(time - 0.1f, 0.0f);
+    return time;
+}
+
+- (void)startTimer {
+    [self.countdownTimer invalidate];
+    self.countdownTimer = [NSTimer scheduledTimerWithTimeInterval:0.1f target:self selector:@selector(timerFired) userInfo:nil repeats:YES];
 }
 
 @end

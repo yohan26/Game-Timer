@@ -8,11 +8,20 @@
 
 #import <Foundation/Foundation.h>
 
+typedef enum {
+    noPlayerRunning,
+    player1Running,
+    player2Running
+} timerStatus;
+
 @interface Timer : NSObject
 
-@property (nonatomic, readonly) float player1Time;
-@property (nonatomic, readonly) float player2Time;
+@property (nonatomic, readonly) float startTime;
+@property (nonatomic) float player1Time;
+@property (nonatomic) float player2Time;
+@property (nonatomic) timerStatus status;
 
 - (id)initWithTime:(float)time;
+- (void)startTimer;
 
 @end
