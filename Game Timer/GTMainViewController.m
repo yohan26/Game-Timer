@@ -64,7 +64,7 @@
     self.middleButton.tag = 3;
     [self.middleButton addTarget:self action:@selector(middleButtonPressed) forControlEvents:UIControlEventTouchUpInside];
     
-    self.player1Button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    self.player1Button = [UIButton buttonWithType:UIButtonTypeSystem];
     NSString *player1String = [NSString stringWithFormat:@"%0.1f", self.timer.player1Time];
     [self.player1Button setTitle:player1String forState:UIControlStateNormal];
     [self.player1Button.titleLabel setFont:[UIFont systemFontOfSize:100.0f]];
